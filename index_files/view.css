@@ -1,0 +1,1330 @@
+.view{background:#efefef;}
+.bodybg{position:fixed;z-index:-9999;top:0;right:0;bottom:0;left:0;background-size:cover}
+.view .header,.header .right .usernav{background:rgba(0,0,0,.7);}
+.view .header{position:fixed;top:0;}
+.view .header a.logo{width:106px;height:34.5px;background:url(../../img.wannengye.com/logo_n.html) no-repeat;background-size: 106px 34.5px;}
+.view .header .right{width:894px;}
+.header .right .usernav a{border-color:#f2f2f2;}
+
+.view_body{width:700px;margin:90px auto 60px auto;min-height:500px;position:relative;}
+
+.view_cont,.view_content{padding:15px;position:relative;background:#fff;}
+.title{line-height:200%;font-size:18px;color:#333;text-align:left;}
+.title a{display:block;color:#333;}
+.text{line-height:200%;font-size:14px;color:#666;text-align:left;}
+.text a{display:block;color:#333;}
+.img{width:210px;background: #f2f2f2;position:relative;}
+.img a.view_imgopen{ width: 0;height: 0;border-right: 0 solid transparent;border-left: 44px solid transparent;border-bottom: 44px solid rgba(255,255,255,.8);color:#666;font-size:20px;position:absolute;bottom:0;right:0;  background: none;padding: 0;border-radius: 0;}
+.img a.view_imgopen i{  position: absolute;bottom: -40px;right: 3px;color:#808080;}
+.img a.view_imgopen:hover i{color:#4d4d4d;}
+
+/*主题样式*/
+.bottomstyle{width:96%;position:absolute;top:100%;left:2%;height:5px;background:#d6d6d6;}
+
+/*头部 组件*/
+.view_header{width:100%;position:relative;background:#fff}
+.view_header .view_tool_top{display:none}
+.view_header .title{font-size:38px;line-height:140%;}
+.view_header .text{font-size:24px;line-height:140%;}
+.view_header .img{width:120px;height:120px;min-height:120px;margin:10px auto;border-radius:50%;display:none;cursor:pointer;background-size:100% auto !important}
+.view_header .view_cont,.view_header .view_content{padding:20px 10px;background:none}
+
+.view_header .switch_2 .img{display:block;}
+.view_header .switch_2 .title{display:none;}
+.view_header .switch_2 .text{text-align:center;}
+
+.view_header .switch_3 .img{display:none;}
+.view_header .switch_3 .text,.view_header .switch_3 .title{text-align:center;}
+
+.view_header .view_cont.switch_4{background:#fff;padding:0 10px!important;}
+.view_header .view_cont.switch_4 .img{display:none;}
+.view_header .view_cont.switch_4 .title{font-size:24px;color:#333;}
+.view_header .view_cont.switch_4 .text{font-size:16px;color:#666;}
+.view_header .view_cont.switch_4 .view_content{padding:10px;}
+
+/*按钮 组件*/
+.view_botton{width:100%;position:relative;}
+.view_botton .title a{display:block;text-align: center;background:#51A8E2;color:#fff;padding:5px 0;}
+.view_botton .text{text-align:center;}
+
+.view_botton .switch_2 .view_content{min-height:46px;}
+.view_botton .switch_2 .title{width:210px;float:right;}
+.view_botton .switch_2 .text{text-align:center;width:415px;padding:10px 0;}
+
+/*文本 组件*/
+.view_text{width:100%;position:relative;}
+.view_text .title{display:block;text-align: center;}
+.view_text .text{text-align:center;word-wrap: break-word;}
+
+.view_text .switch_2 .title,.view_text .switch_2 .text{text-align:left;}
+.view_text .switch_2 .text{text-indent:2em;}
+
+.view_text .switch_3 .title,.view_text .switch_3 .text{text-align:right;}
+.view_text .switch_4 .title{text-align:center;}
+.view_text .switch_4 .text{text-align:left;}
+
+/*图文 组件*/
+.view_imgtext{width:100%;position:relative;}
+.view_imgtext .img{width:210px;float:left;}
+.view_imgtext .img a{display:block;}
+.view_imgtext .img a img{width: 100%;}
+.view_imgtext .wenben{text-align:center;width:415px;float:left;margin-left:15px}
+
+
+.view_imgtext .switch_2 .img{width:210px;float:right;}
+.view_imgtext .switch_2 .wenben{text-align:center;width:415px;float:left;margin-left:0}
+
+
+/*单图组件*/
+.view_onepoto{width:100%;position:relative;}
+.view_onepoto .img{width:100%;}
+.view_onepoto .img a{display:block;}
+.view_onepoto .img a img{width: 100%;}
+.view_onepoto .wenben{text-align:center;width:100%;}
+.view_onepoto .wenben.first .title{display:none}
+
+.view_onepoto .switch_2 .wenben .title{display:none;}
+.view_onepoto .switch_2 .wenben.first .title{display:block;}
+
+.view_onepoto .switch_3 .wenben .title{display:none;}
+.view_onepoto .switch_3 .wenben.first .title{display:block;text-align: center;}
+.view_onepoto .switch_3 .wenben .text{display:block;text-align: center;}
+
+/*双图组件*/
+.view_twopoto{width:100%;position:relative;}
+.view_twopoto .view_tool_top .tb_view{display:none}
+.view_twopoto .view_content .li{width:310px;margin-left:20px;float:left;}
+.view_twopoto .view_content .li.first{margin-left:0;}
+.view_twopoto .img{width:100%;position:relative;}
+.view_twopoto .img .view_tool_top .tb_view{display:block;}
+.view_twopoto .img a{display:block;}
+.view_twopoto .img a img{width: 100%;}
+.view_twopoto .wenben{text-align:center;width:100%;}
+.view_twopoto .wenben.first .title{display:none}
+
+.view_twopoto .switch_2 .wenben .title{display:none;}
+.view_twopoto .switch_2 .wenben.first .title{display:block;}
+
+.view_twopoto .switch_3 .wenben .title{display:none;}
+.view_twopoto .switch_3 .wenben.first .title{display:block;text-align: center;}
+.view_twopoto .switch_3 .wenben .text{display:block;text-align: center;}
+
+/*三图组件*/
+.view_threepoto{width:100%;position:relative;}
+.view_threepoto .view_tool_top .tb_view{display:none}
+.view_threepoto .view_content .li{width:200px;margin-left:20px;float:left;}
+.view_threepoto .view_content .li.first{margin-left:0;}
+.view_threepoto .img{width:100%;position:relative;}
+.view_threepoto .img .view_tool_top .tb_view{display:block;}
+.view_threepoto .img a{display:block;}
+.view_threepoto .img a img{width: 100%;}
+.view_threepoto .wenben{text-align:center;width:100%;}
+.view_threepoto .wenben.first .title{display:none}
+
+.view_threepoto .switch_2 .wenben .title{display:none;}
+.view_threepoto .switch_2 .wenben.first .title{display:block;}
+
+.view_threepoto .switch_3 .wenben .title{display:none;}
+.view_threepoto .switch_3 .wenben.first .title{display:block;text-align: center;}
+.view_threepoto .switch_3 .wenben .text{display:block;text-align: center;}
+
+/*视频组件*/
+.view_video{width:100%;position:relative;}
+.view_video .view_tool_top .tb_view,.view_video .view_tool_right,.view_video .view_tool_left{display:none}
+.view_video .img{width:100%;float:left;background:#fff;}
+.view_video .img p{text-align:center;position:absolute;bottom:0;display:block;width:100%;padding-bottom:15px;color:#666;font-size:12px}
+.view_video .link{width:299px;float:left;padding:0 10px 0 20px;color:#666;line-height:24px;font-size:12px;}
+.view_video .link textarea{width:100%;height:140px;border-color:#f2f2f2;line-height:30px;}
+.view_video .link a{font-size:12px;}
+.view_video .link a.btn{line-height:30px;padding:0 20px;background:#51A8E2;color:#fff;text-align: center;display:block;float:right;}
+
+/*音频组件*/
+.view_audio{width:700px;position:relative;}
+.view_audio .view_content{padding:0px;}
+.view_audio .img{width:100%;float:left;padding:0;color:#666;line-height:24px;font-size:12px;box-sizing: border-box;min-height:0;}
+.view_audio .img iframe{width:100% !important}
+
+/*活动组件*/
+.view_activity{width:100%;position:relative;}
+.view_activity .view_cont{min-height:210px;}
+.view_activity .img{width:210px;float:left;background: #e9e9e9 url(../../img.wannengye.com/event_default_map.html) center center no-repeat}
+.view_activity .img a{display:block;}
+.view_activity .img a img{width: 100%;}
+.view_activity .wenben{width:415px;float:left;margin-left:15px}
+
+.view_activity .activity_li{padding:10px 0;color:#666;}
+.view_activity .activity_li input{width:360px;padding:5px;line-height:20px;height:20px;}
+.view_activity .activity_li.min input{width:130px;}
+
+.view_activity .switch_2 .img{width:210px;float:right;}
+.view_activity .switch_2 .wenben{width:415px;float:left;margin-left:0}
+
+/*联系方式组件*/
+.view_contact{width:100%;position:relative;}
+.view_contact .view_cont{min-height:210px;}
+.view_contact .img{width:210px;float:left;}
+.view_contact .p{text-align:center;position:absolute;bottom:15px;left:15px;width:210px;display:block;color:#666;font-size:12px;line-height:24px;}
+.view_contact .img a{display:block;}
+.view_contact .img a img{width: 100%;}
+.view_contact .wenben{width:415px;float:left;margin-left:15px}
+.view_contact .contact{display:block;line-height:200%;position:relative;color:#666}
+.view_contact .contact i{margin-right:5px;}
+.view_contact .contact .topinput{display:inline-block;padding: 0 5px;}
+.view_contact .contact .topinput a{color:#666;}
+.view_contact .contact .topinput.last{margin:0;}
+.view_contact .contact .form{line-height:200%;border-top:1px solid #efefef;border-bottom:1px solid #efefef;}
+.view_contact .contact .form .botinput{width:360px;padding:0 5px;display:inline-block;min-height:22px;}
+.view_contact .contact .form .botinput a{color:#666;}
+.view_contact .contact .li{display:inline-block;padding-left:20px;position:relative;}
+.view_contact .contact .li i{display:inline-block;position:absolute;top:0;left:0;margin-right:0;width:20px;text-align:center;}
+.view_contact .contact .form .li{display: block;margin:2.5px 0;}
+.view_contact .contact .top .li{margin-right:10px;}
+
+.view_contact .switch_2 .img{width:210px;float:right;}
+.view_contact .switch_2 .wenben{width:415px;float:left;margin-left:0}
+.view_contact .switch_2 .p{left:auto;right:15px;}
+
+/*APP组件*/
+.view_APP{width:100%;position:relative;}
+.view_APP .view_cont{min-height:210px;}
+.view_APP .img{width:210px;float:left;}
+.view_APP .p{text-align:center;width:210px;display:block;color:#666;font-size:12px;line-height:24px;position:absolute;bottom:-24px;left:0;}
+.view_APP .img a{display:block;}
+.view_APP .img a img{width: 100%;}
+.view_APP .wenben{width:415px;float:left;margin-left:15px}
+.view_APP .text{min-height:102px;}
+.view_APP .btn{line-height:200%;padding:0;}
+.view_APP .btn a{width:180px;background:#51A8E2;color:#fff;line-height:40px;display:inline-block;text-align:center;margin-right:20px;}
+.view_APP .btn a i{margin-right:5px;}
+.view_APP .btn a.last{margin:0;}
+
+.view_APP .switch_2 .wenben{margin-left:0}
+.view_APP .switch_2 .img{width:210px;float:right;}
+.view_APP .switch_2 .p{left:auto;right:0;}
+
+/*表单组件*/
+.view_form{width:100%;position:relative;}
+.view_form .tb_view{display:none}
+.view_form .form_tool a{display:inline-block;padding:5px 10px;border-radius:2px;margin-right:6px;color:#666;background:#f2f2f2}
+.view_form .form_tool a:hover,.view_form .form_tool a.down{background: #51A8E2;color:#fff;}
+.view_form .text{text-align:center;padding:5px 0;border-bottom:1px solid #efefef;}
+.view_form .form_cont{display:block;padding-top:10px;}
+.view_form .form_cont input{padding:10px 5px;line-height:20px;height:20px;border:1px solid #efefef;width:298px;margin:5px 5px 5px 5px;float:left;}
+.view_form .form_cont textarea{width:618px;padding:10px 5px;margin:5px 5px 5px 5px;border:1px solid #efefef;min-height:120px;}
+.view_form .form_cont .sex{padding:10px 5px;display:block;float:left;width:630px;line-height:30px;text-align:left;color:#666;}
+.view_form .form_cont .sex .radio{width:10px;height:10px;border-radius:50%;border:4px solid #b3b3b3;display:inline-block;position:relative;top:3px;}
+.view_form .form_cont .sex .radio.down{border-color:#51A8E2;}
+.view_form .form_cont .sex .radio.down div{width:6px;height:6px;background:#51A8E2;border-radius:6px;margin:2px;}
+.view_form .form_cont .btn{width:630px;background:#51A8E2;color:#fff;line-height:40px;display:inline-block;text-align:center;margin:5px 5px 0 5px;box-sizing: border-box;}
+.view_form .view_tool_top .tb_view,.view_form .view_tool_right,.view_form .view_tool_left{display:none}
+
+/*万能表单 组件*/
+.view_customform{width:100%;position:relative;}
+.view_customform .title a{display:block;text-align: center;background:#51A8E2;color:#fff;padding:5px 0;}
+.view_customform .text{text-align:center;}
+
+.view_customform .switch_2 .view_content{min-height:46px;}
+.view_customform .switch_2 .title{width:210px;float:right;}
+.view_customform .switch_2 .text{text-align:center;width:415px;padding:10px 0;}
+
+.view_customform .customform{display:block;padding:15px;border-top:1px solid #efefef;}
+.view_customform .customform .li{width:180px;margin-right:20px;padding:10px;float:left;background:#f2f2f2;min-height:120px;}
+.view_customform .customform .li .lititle{line-height:30px;border-bottom:1px solid #fff;}
+.view_customform .customform .li .litext{line-height:200%;color:#666;}
+.view_customform .customform .add{width:180px;padding:10px;float:left;background:#f2f2f2;min-height:120px;color:#666;}
+.view_customform .customform .add i{font-size:40px;display:block;text-align:center;line-height:220%}
+.view_customform .customform .add .litext{text-align:center;}
+.view_customform .customform_bar {display:block;text-align:right;padding:10px 0 0 0;}
+.view_customform .customform_bar span{display:inline-block;background:#f2f2f2;width:10px;height:10px;}
+.view_customform .customform_bar span.down{background:#51A8E2}
+
+/*表格组件*/
+.view_table{width:100%;position:relative;}
+.view_table .tb_view{display:none}
+.view_table .title{text-align:center;padding:5px 0;border-bottom:1px solid #efefef;}
+.view_table .table_style{float:right;margin:2px 3px 0 0;border-radius:2px;width:17px;height:17px;font-size:12px;cursor:pointer;width:auto;padding:0 5px;line-height:17px;text-decoration:none!important;border:1px solid #efefef;color:#666;position:relative;}
+.view_table .table_style .select_table{padding:5px;position:absolute;top:100%;left:-1px;width:56px;height:56px;background:#fff;border-radius:4px;border:1px solid #f2f2f2;display:none;-webkit-box-shadow: rgba(0,0,0,.168627)0px 0px 2px;}
+.view_table .table_style .select_table div{display:block;border-left:1px solid #f2f2f2;border-top:1px solid #f2f2f2;overflow:hidden;}
+.view_table .table_style .select_table span{width:10px;height:10px;display:block;border-right:1px solid #f2f2f2;border-bottom:1px solid #f2f2f2;float:left;}
+.view_table .table_style .select_table span:hover{background:#51A8E2}
+.view_table .table{overflow-x:auto;}
+.view_table .table table{width:100%;border-right:1px solid #efefef;border-bottom:1px solid #efefef;margin-top:10px;}
+.view_table .table table td,.view_table .table table th{padding:10px;border-left:1px solid #efefef;border-top:1px solid #efefef;height:20px;}
+.view_table .table table th{background:#51A8E2}
+.view_table .table.table_2{display:none}
+.view_table .tableadd{line-height:30px;font-size:12px;text-align:right;display:block;width:100%;color:#51A8E2;}
+
+/* .view_table .switch_2 .table.table_1{display:none}
+.view_table .switch_2 .table.table_2{display:block;} */
+.view_table .switch_2 .table.table_1 th{background:none;}
+
+/*分隔符*/
+.view_separatormk{width:100%;position:relative;}
+.view_separatormk .view_content{background:none;}
+.view_separatormk .title{padding:30px 10px;line-height:30px;-o-text-overflow: ellipsis;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;font-size:1.5em;text-align:center;}
+.view_separatormk .title .tag{display:block;width:100%;}
+/*.view_separatormk .switch_1 .view_content{border:5px solid #51A8E2}
+.view_separatormk .switch_1 .topstyle{position:absolute;width:0;background:none;margin-right:auto;margin-left:auto;border-top-width:.6em;border-top-style:solid;border-bottom-color:#51A8E2;border-top-color:#51A8E2;height:10px;border-left-width:.7em!important;border-left-style:solid!important;border-left-color:transparent!important;border-right-width:.7em!important;border-right-style:solid!important;border-right-color:transparent!important;box-sizing:border-box;top:auto;bottom:5px;left:50%;margin-left:-9px;}
+.view_separatormk .switch_2{background:rgb(241, 241, 241) url(../images/icon_1.jpg) no-repeat;}
+.view_separatormk .switch_2 .title{text-align:left;}
+.view_separatormk .switch_3 .title{text-align:left;display:inline-block;background:#51A8E2;color:#fff;position:relative;padding:0 10px;}
+.view_separatormk .switch_3 .title .tag{position:absolute;left:100%;bottom:0px;display:inline-block;height:36px;vertical-align:top;border-left-width:9px;border-left-style:solid;border-left-color:#51A8E2;box-sizing:border-box;border-top-width:18px!important;border-top-style:solid!important;border-top-color:transparent!important;border-bottom-width:18px!important;border-bottom-style:solid!important;border-bottom-color:transparent!important;}
+
+.view_separatormk .switch_4 .view_content{border-top:2px solid #51A8E2;padding:2px 24px 28px 0;}
+.view_separatormk .switch_4 .title{text-align:left;display:inline-block;background:#51A8E2;color:#fff;position:relative;padding:0 10px;}
+.view_separatormk .switch_4 .title .tag{position:absolute;left:100%;top:0px;display:inline-block;vertical-align:top;border-left-width:24px;border-left-style:solid;border-left-color:#51A8E2;box-sizing:border-box;border-bottom-width:36px!important;border-bottom-style:solid!important;border-bottom-color:transparent!important;}
+*/
+.view_separatormk .switch_1 .view_content{padding:10px;}
+.view_separatormk .switch_1 .title{padding:0 30px;}
+.view_separatormk .switch_1 .title .tag{background-image:url(../../img.wannengye.com/separator_1.html);background-repeat:no-repeat;background-position:center -60px;height:30px;}
+
+.view_separatormk .switch_2 .title{padding: 10px 55px;height:30px;position: relative;}
+.view_separatormk .switch_2 .title .tag{background-image:url(../../img.wannengye.com/separator_2.html);background-repeat:no-repeat;background-position:center -19px;height:53px;position: absolute;top: 0;left: 0;}
+
+.view_separatormk .switch_3 .title{padding: 10px 40px;}
+.view_separatormk .switch_3 .title .tag{background-image:url(../../img.wannengye.com/separator_3.html);background-repeat:no-repeat;background-position:center -60px;height:30px;}
+
+.view_separatormk .switch_4 .view_content{padding:10px 0;}
+.view_separatormk .switch_4 .title{padding:27px 28px;position: relative;height:30px}
+.view_separatormk .switch_4 .title .tag{background-image:url(../../img.wannengye.com/separator_4.html);background-repeat:no-repeat;background-position:center -3px;height:84px;position: absolute;top: 0;left: 0;}
+
+.view_separatormk .switch_5 .title{padding:0 30px;}
+.view_separatormk .switch_5 .title .tag{background-image:url(../../img.wannengye.com/separator_5.html);background-repeat:no-repeat;background-position:center -60px;height:30px;}
+
+.view__separatormk marquee{overflow:-webkit-marquee;-webkit-marquee-direction: forwards;-webkit-marquee-speed: slow;-webkit-marquee-style: alternate;}
+
+
+/*间距*/
+.view_spacing{width:100%;height:30px;}
+
+/*顶部分享模块*/
+/*分享*/
+
+.view_share{width: 700px;height:60px;margin:100px auto 30px auto;padding: 0 255px 0 45px;font-size:14px;}
+.view_share:empty{height:10px;}
+.view_share ul{width:90%;height:60px;margin:0 auto;position: relative;background: #fff;box-shadow: 0 3px 3px rgba(0,0,0,.15),inset 0 35px 0 -30px #6b6b6b;}
+.view_share li{float:left;height:40px;padding:10px 0;font-size:1em;line-height:40px;position:relative;cursor:pointer;}
+.view_share a{color:#fff;}
+.view_share li i{font-size:2em}
+.view_share li .balloon{margin-top: 5px;display:inline-block;background:#fff;text-align:center;padding:4px;border-radius:3px;position:relative;margin-left:6px;width:48px;height:14px;line-height:17px;vertical-align:top;margin-bottom:0;-o-text-overflow:ellipsis;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.view_share li .balloon span.counter,.view_share li a .balloon span.counter{color:#666;}
+.view_share li.view_weixin,.view_share li.view_weibo{margin:13px 0 13px 20px;padding:5px 5px;background:#ff9879;border-radius:4px;color:#fff;line-height:30px;height:30px;min-width:100px;}
+.view_share li.view_weixin{background: #77b382}
+.view_share li.view_weixin .balloon a,.view_share li.view_weibo .balloon a{background:#fff;color:#666;}
+.view_share li.view_sharec{background:#f7f7f7;margin-left:20px;height:35px;margin-top:5px;}
+.view_share li .view_btn{margin:0 30px;text-decoration:none;width:100px;color:#fff;line-height:34px;text-align:center;display:block;border-radius:3px;background:#51A8E2;font-size:14px;}
+.view_share li.view_flow{width: 160px;}
+.view_share li.view_flow h1{font-size:1em;color:#666;text-align:center;padding-top:5px;}
+.view_share li.view_flow h1 i{font-size:0.8em;margin:0 5px;color:#f00;}
+.view_share li.view_flow h1 span{background:#fff;text-align:center;padding:0;border:1px solid #BBB;border-radius:3px;position:relative;margin-left:6px;min-width:10px;height:18px;line-height:20px;margin-bottom:0;-o-text-overflow:ellipsis;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:75px;display:inline-block;float:right;margin-top:8px;}
+
+/**/
+.goregist,.view_action{display:none;}
+.view_copyright {width: 100%;text-shadow: none;padding: 15px 0;font-size: .9em;text-align:center;color: #747474;}
+.view_copyright a{color: #747474;}
+.view_copyright a.last{margin-left: 10px;color:#ffac5b;line-height: 20px;display: inline-block;padding: 0 5px;border-radius: 4px;}
+.view_copyright a.last:hover{color:#fff;background:#ffac5b;}
+/*预览*/
+.header.preview{background:#000}
+.header.preview .right a{padding:0 5px;position:relative;}
+.header.preview .right a i{font-size:22px;line-height:30px;color:#999;}
+.header.preview .right a.pc{top:3px}
+.header.preview .right a:hover i,.header.preview .right a.hover i{color:#ffac5b;}
+.view_body.preview{padding-top:80px;}
+
+.view_header.null{padding:0 !important;}
+.view_header.null .view_cont{display:none!important;}
+.view_header.null .view_cont.switch_2{padding:0 !important;}
+
+.iphone.preview{width:320px;height:575px;padding:80px 20px;margin:120px auto 0 auto;background:url(../images/iphone.html) no-repeat;background-size:100% auto;overflow:hidden;-webkit-transition-duration: 600ms;transition-duration: 600ms;}
+.view_body.mb{width:320px;height:575px;overflow: auto;padding:0;margin:0 auto;}
+.view_body.mb .shortcut{display:none !important}
+.view_body.mb .bodybg{display: none !important;}
+.view_body.mb .header,.view_body.mb .view_share{display:none;}
+.view_body.mb .view_body{width:100%;margin:0 auto;}
+
+.view_body.mb .goregist{cursor: pointer;display:block;width:100%;height:60px;position:relative;background:rgba(0,0,0,.8) url(../../img.wannengye.com/mobile_top.html) no-repeat 96%;background-size: 40%;box-shadow:1px 1px 4px rgba(0,0,0,.3);z-index: 2;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+.view_body.mb .goregist a{padding:10px 0 10px 10px;line-height:40px;color:#fff;font-size:1em;display:block;}
+.view_body.mb .view_header.null .view_action{padding:10px 0;}
+.view_body.mb .view_action{overflow:hidden;padding-left:0;display:block;position:relative;width:100%;padding-bottom:10px;}
+.view_body.mb .view_action li a{width:56px;height:56px;float:left;overflow:hidden;display:block;}
+.view_body.mb .view_action li span{padding:5px;width:46px;height:46px;display:block;}
+.view_body.mb .view_action li span i{border-radius:50%;color:#fff;text-align: center;width:42px;height:42px;display:block;line-height:42px;border:2px solid rgba(255,255,255,.5);font-size:2em;margin:0 auto;}
+.view_body.mb .view_action li:empty{display:none}
+
+.view_body.mb .view_action li.last span,.view_body.mb .view_action li.last a{width:auto;display: inline-block;color:#fff;position:relative;}
+.view_body.mb .view_action li.last span{padding: 15px 0 16px 0;height:30px;line-height:30px;}
+.view_body.mb .view_action li.last span i{background:none;position: absolute;left:10px;top:18px;font-size:24px;width:30px;height:30px;line-height:30px;border:none;}
+
+.view_body.mb .view_cont{padding:0 10px;}
+.view_body.mb .view_content{padding:15px 10px;}
+.view_body.mb .view_threepoto .view_content .li{width:100%}
+.view_body.mb .view_twopoto .view_content .li{width:130px;box-sizing: border-box;margin-left:5px;}
+.view_body.mb .view_twopoto .view_content .li.first{margin-left:0px;margin-right:5px;}
+.view_body.mb .view_twopoto .img{ min-height: 100px;}
+
+.view_body.mb .view_imgtext .switch_1 .img,.view_body.mb .view_imgtext .switch_2 .img{width:30%;box-sizing: border-box;}
+.view_body.mb .view_imgtext .switch_1 .wenben,.view_body.mb .view_imgtext .switch_2 .wenben{width:70%;box-sizing: border-box;}
+.view_body.mb .view_imgtext .switch_1 .wenben{padding-left:10px;}
+.view_body.mb .view_imgtext .switch_2 .wenben{padding-right:10px;}
+.view_body.mb .view_activity .img,.view_body.mb .view_activity .wenben,.view_body.mb .view_contact .img,.view_body.mb .view_contact .wenben,.view_body.mb .view_APP .img,.view_body.mb .view_APP .wenben,.view_body.mb .view_APP .p,.view_body.mb .view_APP .btn a,.view_body.mb .view_form .form_cont input,.view_body.mb .view_form .form_cont textarea,.view_body.mb .view_form .form_cont .sex,.view_body.mb .view_form .form_cont .btn,.view_body.mb .view_audio{width:100% !important;}
+.view_body.mb .view_contact .contact .form .botinput{width:auto;}
+.view_body.mb .view_threepoto .view_content .li{margin-left:auto !important;}
+.view_body.mb .view_imgtext .wenben,.view_body.mb .view_activity .wenben,.view_body.mb .view_contact .wenben,.view_body.mb .view_APP .wenben{margin-left:0 !important;}
+
+.view_body.mb .view_header .view_cont{background:none}
+.view_body.mb .view_video .img iframe{width:100%;height:auto;}
+
+.view_body.mb .view_contact .wenben{position:relative;}
+.view_body.mb .view_contact .p{display:none}
+.view_body.mb .view_APP .p{bottom:-34px;}
+.view_body.mb .view_APP .wenben{padding-top:30px;}
+.view_body.mb .view_APP .btn{width:100%}
+.view_body.mb .view_APP .btn a{margin:10px auto;width:100%;}
+.view_body.mb .view_APP .btn a.last{margin:0 auto;}
+.view_body.mb .view_APP .text{min-height:auto}
+
+.view_body.mb .view_form .form_cont input,.view_body.mb .view_form .form_cont textarea,.view_body.mb .view_form .form_cont .sex{padding:10px 0;margin:5px auto;text-indent:10px;}
+.view_body.mb .view_form .form_cont .btn{margin:5px 0 0 0;}
+
+.view_body.mb .view_header .view_cont.switch_2{padding:180px 0 0 0 !important}
+.view_body.mb .view_header.null  .view_cont.switch_2{padding:0 !important}
+.view_body.mb .view_header .view_cont.switch_2 .view_content{background:#fff;padding-top:50px;}
+.view_body.mb .view_header .view_cont.switch_2 .text{color:#808080;}
+.view_body.mb .view_header .view_cont.switch_2 .img{position:absolute;top:-40px;left:50%;margin-left:-40px;border-width:2px;width:80px;height:80px;min-height:80px;background-size: cover !important;margin-top:0;}
+.view_body.mb .view_header .view_cont.switch_2 .view_action{background:#fff}
+.view_body.mb .view_header .view_cont.switch_2 .view_action ul{text-align:center;}
+.view_body.mb .view_header .view_cont.switch_2 .view_action li{display:inline-block;}
+.view_body.mb .view_header .view_cont.switch_4{background:#fff !important;padding:0 10px!important;}
+.view_body.mb .view_header .title,.view_body.mb .view_header .text{line-height:140%;}
+.view_body.mb .view_twopoto .view_content .li.first{margin-bottom:20px;}
+.view_body.mb .slick-dots{bottom:auto !important;top:-10px;left:0;}
+.view_body.mb .slick-dots li button:before{content:''}
+.view_body.mb .slick-dots li button{width: 20px;height: 4px;background: black;padding:0;opacity: 0.25;}
+.view_body.mb .slick-dots li{margin:0 5px !important;}
+.view_body.mb .slick-dots li.slick-active button{opacity:1;}
+.view_body.mb .view_action{margin-top:-1px;}
+.view_body.mb .view_table .table{overflow:auto;}
+
+.view_body.mb .view_customform  .title,.view_body.mb .view_customform .text,.view_body.mb .view_customform .switch_2 .text{width:100%;float: left;}
+.view_body.mb .title,.view_body.mb .text,.view_body.mb .view_contact .contact,.view_body.mb .view_contact .contact .form{line-height:160%;}
+/*分隔符组件*/
+.view_body.mb .view_separatormk .view_content{padding: 15px 0 !important;}
+.view_body.mb .view_separatormk .view_title{padding: 0 !important;}
+.view_body.mb .view_separatormk .view_cont{padding: 15px 0 !important;}
+
+.view_body.mb .view_separatormk .switch_1 .title,.view_body.mb .view_separatormk .switch_2 .title,.view_body.mb .view_separatormk .switch_3 .title,.view_body.mb .view_separatormk .switch_4 .title,.view_body.mb .view_separatormk .switch_5 .title{background-size:100%}
+.view_body.mb .view_separatormk .switch_1 .title .tag{background-image:url(../../img.wannengye.com/separator_1_min.html);}
+.view_body.mb .view_separatormk .switch_2 .title .tag{background-image:url(../../img.wannengye.com/separator_2_min.html);}
+.view_body.mb .view_separatormk .switch_3 .view_content{padding:15px 0;}
+.view_body.mb .view_separatormk .switch_3 .title .tag{background-image:url(../../img.wannengye.com/separator_3_min.html);}
+.view_body.mb .view_separatormk .switch_4 .title .tag{background-image:url(../../img.wannengye.com/separator_4_min.html);}
+.view_body.mb .view_separatormk .switch_5 .title .tag{background-image:url(../../img.wannengye.com/separator_5_min.html);}
+
+.view_body.mb .view_separatormk .switch_2 .title{padding:10px 65px;}
+.view_body.mb .view_separatormk .switch_3 .title{padding:10px 0;}
+
+.view_body.mb .view_table .table{overflow:auto}
+
+.view_body.mb .view_botton .switch_2 .title,.view_body.mb .view_botton .switch_2 .text{width:100%}
+
+.view_body.mb .view_header,.view_body.mb .view_spacing,.view_body.mb .view_botton,.view_body.mb .view_text,.view_body.mb .view_imgtext,.view_body.mb .view_onepoto,.view_body.mb .view_threepoto,.view_body.mb .view_twopoto,.view_body.mb .view_video,.view_body.mb .view_activity,.view_body.mb .view_contact,.view_body.mb .view_APP,.view_body.mb .view_form,.view_body.mb .view_customform,.view_body.mb .view_table,.view_body.mb .view_separatormk{width:320px;}
+/*背景音乐图标*/
+.musicbg_icon{width:70px;position: absolute;right: -90px;top: -10px;padding:0 !important;z-index:21;overflow:hidden;cursor: pointer;}
+.musicbg_icon img{width:70px;}
+
+.view_body.mb .musicbg_icon{right:-20px;top:50px;}
+
+.preview_body .view_body{padding-top:44px;}
+.preview_body .view_body.mb{padding:0;}
+
+.m_wxfollow{display:none;}
+/*分隔符更换主题色*/
+/*分隔符样式一*/
+
+.view_separatormk .switch_1.color_1_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_2.html);}
+.view_separatormk .switch_1.color_1_3 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_3.html);}
+.view_separatormk .switch_1.color_1_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_4.html);}
+.view_separatormk .switch_1.color_1_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_5.html);}
+.view_separatormk .switch_1.color_1_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_6.html);}
+.view_separatormk .switch_1.color_1_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_7.html);}
+.view_separatormk .switch_1.color_1_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_8.html);}
+.view_separatormk .switch_1.color_1_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_9.html);}
+.view_separatormk .switch_1.color_1_10 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_10.html);}
+.view_separatormk .switch_1.color_1_11 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_11.html);}
+.view_separatormk .switch_1.color_1_12 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_12.html);}
+.view_separatormk .switch_1.color_1_13 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_13.html);}
+.view_separatormk .switch_1.color_1_14 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_14.html);}
+.view_separatormk .switch_1.color_1_15 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_15.html);}
+.view_separatormk .switch_1.color_1_16 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_16.html);}
+.view_separatormk .switch_1.color_1_17 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_17.html);}
+.view_separatormk .switch_1.color_1_18 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_18.html);}
+.view_separatormk .switch_1.color_1_19 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_19.html);}
+.view_separatormk .switch_1.color_1_20 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_20.html);}
+.view_separatormk .switch_1.color_1_21 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_21.html);}
+.view_separatormk .switch_1.color_1_22 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_22.html);}
+
+.view_separatormk .switch_1.color_2_1 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_1.html);}
+.view_separatormk .switch_1.color_2_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_2.html);}
+.view_separatormk .switch_1.color_2_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_4.html);}
+.view_separatormk .switch_1.color_2_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_5.html);}
+.view_separatormk .switch_1.color_2_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_6.html);}
+.view_separatormk .switch_1.color_2_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_7.html);}
+.view_separatormk .switch_1.color_2_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_8.html);}
+.view_separatormk .switch_1.color_2_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_9.html);}
+
+.view_separatormk .switch_1.color_3_1 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_1.html);}
+.view_separatormk .switch_1.color_3_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_2.html);}
+.view_separatormk .switch_1.color_3_3 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_3.html);}
+.view_separatormk .switch_1.color_3_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_4.html);}
+.view_separatormk .switch_1.color_3_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_5.html);}
+.view_separatormk .switch_1.color_3_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_6.html);}
+.view_separatormk .switch_1.color_3_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_7.html);}
+.view_separatormk .switch_1.color_3_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_8.html);}
+.view_separatormk .switch_1.color_3_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_9.html);}
+.view_separatormk .switch_1.color_3_10 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_10.html);}
+
+.view_separatormk .switch_1.color_4_1 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_1.html);}
+.view_separatormk .switch_1.color_4_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_2.html);}
+.view_separatormk .switch_1.color_4_3 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_3.html);}
+.view_separatormk .switch_1.color_4_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_4.html);}
+.view_separatormk .switch_1.color_4_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_5.html);}
+.view_separatormk .switch_1.color_4_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_6.html);}
+.view_separatormk .switch_1.color_4_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_7.html);}
+.view_separatormk .switch_1.color_4_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_8.html);}
+.view_separatormk .switch_1.color_4_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_9.html);}
+.view_separatormk .switch_1.color_4_10 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_10.html);}
+
+
+.view_separatormk .switch_1.color_5_1 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_1.html);}
+.view_separatormk .switch_1.color_5_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_2.html);}
+.view_separatormk .switch_1.color_5_3 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_3.html);}
+.view_separatormk .switch_1.color_5_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_4.html);}
+.view_separatormk .switch_1.color_5_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_5.html);}
+.view_separatormk .switch_1.color_5_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_6.html);}
+.view_separatormk .switch_1.color_5_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_7.html);}
+.view_separatormk .switch_1.color_5_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_8.html);}
+.view_separatormk .switch_1.color_5_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_9.html);}
+.view_separatormk .switch_1.color_5_10 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_10.html);}
+.view_separatormk .switch_1.color_5_11 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_11.html);}
+.view_separatormk .switch_1.color_5_12 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_12.html);}
+
+.view_separatormk .switch_1.color_6_1 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_1.html);}
+.view_separatormk .switch_1.color_6_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_2.html);}
+.view_separatormk .switch_1.color_6_3 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_3.html);}
+.view_separatormk .switch_1.color_6_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_4.html);}
+.view_separatormk .switch_1.color_6_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_5.html);}
+.view_separatormk .switch_1.color_6_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_6.html);}
+.view_separatormk .switch_1.color_6_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_7.html);}
+.view_separatormk .switch_1.color_6_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_8.html);}
+.view_separatormk .switch_1.color_6_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_9.html);}
+.view_separatormk .switch_1.color_6_10 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_10.html);}
+.view_separatormk .switch_1.color_6_11 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_11.html);}
+/*分隔符样式二*/
+
+.view_separatormk .switch_2.color_1_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_2.html);}
+.view_separatormk .switch_2.color_1_3 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_3.html);}
+.view_separatormk .switch_2.color_1_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_4.html);}
+.view_separatormk .switch_2.color_1_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_5.html);}
+.view_separatormk .switch_2.color_1_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_6.html);}
+.view_separatormk .switch_2.color_1_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_7.html);}
+.view_separatormk .switch_2.color_1_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_8.html);}
+.view_separatormk .switch_2.color_1_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_9.html);}
+.view_separatormk .switch_2.color_1_10 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_10.html);}
+.view_separatormk .switch_2.color_1_11 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_11.html);}
+.view_separatormk .switch_2.color_1_12 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_12.html);}
+.view_separatormk .switch_2.color_1_13 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_13.html);}
+.view_separatormk .switch_2.color_1_14 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_14.html);}
+.view_separatormk .switch_2.color_1_15 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_15.html);}
+.view_separatormk .switch_2.color_1_16 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_16.html);}
+.view_separatormk .switch_2.color_1_17 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_17.html);}
+.view_separatormk .switch_2.color_1_18 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_18.html);}
+.view_separatormk .switch_2.color_1_19 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_19.html);}
+.view_separatormk .switch_2.color_1_20 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_20.html);}
+.view_separatormk .switch_2.color_1_21 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_21.html);}
+.view_separatormk .switch_2.color_1_22 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_22.html);}
+
+.view_separatormk .switch_2.color_2_1 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_1.html);}
+.view_separatormk .switch_2.color_2_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_2.html);}
+.view_separatormk .switch_2.color_2_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_4.html);}
+.view_separatormk .switch_2.color_2_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_5.html);}
+.view_separatormk .switch_2.color_2_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_6.html);}
+.view_separatormk .switch_2.color_2_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_7.html);}
+.view_separatormk .switch_2.color_2_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_8.html);}
+.view_separatormk .switch_2.color_2_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_9.html);}
+
+.view_separatormk .switch_2.color_3_1 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_1.html);}
+.view_separatormk .switch_2.color_3_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_2.html);}
+.view_separatormk .switch_2.color_3_3 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_3.html);}
+.view_separatormk .switch_2.color_3_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_4.html);}
+.view_separatormk .switch_2.color_3_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_5.html);}
+.view_separatormk .switch_2.color_3_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_6.html);}
+.view_separatormk .switch_2.color_3_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_7.html);}
+.view_separatormk .switch_2.color_3_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_8.html);}
+.view_separatormk .switch_2.color_3_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_9.html);}
+.view_separatormk .switch_2.color_3_10 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_10.html);}
+
+.view_separatormk .switch_2.color_4_1 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_1.html);}
+.view_separatormk .switch_2.color_4_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_2.html);}
+.view_separatormk .switch_2.color_4_3 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_3.html);}
+.view_separatormk .switch_2.color_4_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_4.html);}
+.view_separatormk .switch_2.color_4_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_5.html);}
+.view_separatormk .switch_2.color_4_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_6.html);}
+.view_separatormk .switch_2.color_4_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_7.html);}
+.view_separatormk .switch_2.color_4_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_8.html);}
+.view_separatormk .switch_2.color_4_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_9.html);}
+.view_separatormk .switch_2.color_4_10 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_10.html);}
+
+.view_separatormk .switch_2.color_5_1 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_1.html);}
+.view_separatormk .switch_2.color_5_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_2.html);}
+.view_separatormk .switch_2.color_5_3 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_3.html);}
+.view_separatormk .switch_2.color_5_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_4.html);}
+.view_separatormk .switch_2.color_5_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_5.html);}
+.view_separatormk .switch_2.color_5_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_6.html);}
+.view_separatormk .switch_2.color_5_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_7.html);}
+.view_separatormk .switch_2.color_5_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_8.html);}
+.view_separatormk .switch_2.color_5_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_9.html);}
+.view_separatormk .switch_2.color_5_10 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_10.html);}
+.view_separatormk .switch_2.color_5_11 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_11.html);}
+.view_separatormk .switch_2.color_5_12 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_12.html);}
+
+.view_separatormk .switch_2.color_6_1 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_1.html);}
+.view_separatormk .switch_2.color_6_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_2.html);}
+.view_separatormk .switch_2.color_6_3 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_3.html);}
+.view_separatormk .switch_2.color_6_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_4.html);}
+.view_separatormk .switch_2.color_6_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_5.html);}
+.view_separatormk .switch_2.color_6_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_6.html);}
+.view_separatormk .switch_2.color_6_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_7.html);}
+.view_separatormk .switch_2.color_6_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_8.html);}
+.view_separatormk .switch_2.color_6_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_9.html);}
+.view_separatormk .switch_2.color_6_10 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_10.html);}
+.view_separatormk .switch_2.color_6_11 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_11.html);}
+
+/*分隔符样式三*/
+.view_separatormk .switch_3.color_1_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_2.html);}
+.view_separatormk .switch_3.color_1_3 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_3.html);}
+.view_separatormk .switch_3.color_1_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_4.html);}
+.view_separatormk .switch_3.color_1_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_5.html);}
+.view_separatormk .switch_3.color_1_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_6.html);}
+.view_separatormk .switch_3.color_1_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_7.html);}
+.view_separatormk .switch_3.color_1_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_8.html);}
+.view_separatormk .switch_3.color_1_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_9.html);}
+.view_separatormk .switch_3.color_1_10 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_10.html);}
+.view_separatormk .switch_3.color_1_11 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_11.html);}
+.view_separatormk .switch_3.color_1_12 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_12.html);}
+.view_separatormk .switch_3.color_1_13 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_13.html);}
+.view_separatormk .switch_3.color_1_14 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_14.html);}
+.view_separatormk .switch_3.color_1_15 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_15.html);}
+.view_separatormk .switch_3.color_1_16 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_16.html);}
+.view_separatormk .switch_3.color_1_17 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_17.html);}
+.view_separatormk .switch_3.color_1_18 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_18.html);}
+.view_separatormk .switch_3.color_1_19 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_19.html);}
+.view_separatormk .switch_3.color_1_20 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_20.html);}
+.view_separatormk .switch_3.color_1_21 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_21.html);}
+.view_separatormk .switch_3.color_1_22 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_22.html);}
+
+.view_separatormk .switch_3.color_2_1 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_1.html);}
+.view_separatormk .switch_3.color_2_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_2.html);}
+.view_separatormk .switch_3.color_2_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_4.html);}
+.view_separatormk .switch_3.color_2_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_5.html);}
+.view_separatormk .switch_3.color_2_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_6.html);}
+.view_separatormk .switch_3.color_2_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_7.html);}
+.view_separatormk .switch_3.color_2_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_8.html);}
+.view_separatormk .switch_3.color_2_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_9.html);}
+
+.view_separatormk .switch_3.color_3_1 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_1.html);}
+.view_separatormk .switch_3.color_3_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_2.html);}
+.view_separatormk .switch_3.color_3_3 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_3.html);}
+.view_separatormk .switch_3.color_3_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_4.html);}
+.view_separatormk .switch_3.color_3_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_5.html);}
+.view_separatormk .switch_3.color_3_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_6.html);}
+.view_separatormk .switch_3.color_3_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_7.html);}
+.view_separatormk .switch_3.color_3_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_8.html);}
+.view_separatormk .switch_3.color_3_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_9.html);}
+.view_separatormk .switch_3.color_3_10 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_10.html);}
+
+.view_separatormk .switch_3.color_4_1 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_1.html);}
+.view_separatormk .switch_3.color_4_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_2.html);}
+.view_separatormk .switch_3.color_4_3 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_3.html);}
+.view_separatormk .switch_3.color_4_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_4.html);}
+.view_separatormk .switch_3.color_4_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_5.html);}
+.view_separatormk .switch_3.color_4_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_6.html);}
+.view_separatormk .switch_3.color_4_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_7.html);}
+.view_separatormk .switch_3.color_4_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_8.html);}
+.view_separatormk .switch_3.color_4_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_9.html);}
+.view_separatormk .switch_3.color_4_10 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_10.html);}
+
+.view_separatormk .switch_3.color_5_1 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_1.html);}
+.view_separatormk .switch_3.color_5_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_2.html);}
+.view_separatormk .switch_3.color_5_3 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_3.html);}
+.view_separatormk .switch_3.color_5_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_4.html);}
+.view_separatormk .switch_3.color_5_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_5.html);}
+.view_separatormk .switch_3.color_5_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_6.html);}
+.view_separatormk .switch_3.color_5_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_7.html);}
+.view_separatormk .switch_3.color_5_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_8.html);}
+.view_separatormk .switch_3.color_5_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_9.html);}
+.view_separatormk .switch_3.color_5_10 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_10.html);}
+.view_separatormk .switch_3.color_5_11 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_11.html);}
+.view_separatormk .switch_3.color_5_12 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_12.html);}
+
+.view_separatormk .switch_3.color_6_1 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_1.html);}
+.view_separatormk .switch_3.color_6_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_2.html);}
+.view_separatormk .switch_3.color_6_3 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_3.html);}
+.view_separatormk .switch_3.color_6_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_4.html);}
+.view_separatormk .switch_3.color_6_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_5.html);}
+.view_separatormk .switch_3.color_6_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_6.html);}
+.view_separatormk .switch_3.color_6_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_7.html);}
+.view_separatormk .switch_3.color_6_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_8.html);}
+.view_separatormk .switch_3.color_6_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_9.html);}
+.view_separatormk .switch_3.color_6_10 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_10.html);}
+.view_separatormk .switch_3.color_6_11 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_11.html);}
+
+/*分隔符样式四*/
+.view_separatormk .switch_4.color_1_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_2.html);}
+.view_separatormk .switch_4.color_1_3 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_3.html);}
+.view_separatormk .switch_4.color_1_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_4.html);}
+.view_separatormk .switch_4.color_1_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_5.html);}
+.view_separatormk .switch_4.color_1_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_6.html);}
+.view_separatormk .switch_4.color_1_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_7.html);}
+.view_separatormk .switch_4.color_1_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_8.html);}
+.view_separatormk .switch_4.color_1_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_9.html);}
+.view_separatormk .switch_4.color_1_10 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_10.html);}
+.view_separatormk .switch_4.color_1_11 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_11.html);}
+.view_separatormk .switch_4.color_1_12 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_12.html);}
+.view_separatormk .switch_4.color_1_13 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_13.html);}
+.view_separatormk .switch_4.color_1_14 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_14.html);}
+.view_separatormk .switch_4.color_1_15 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_15.html);}
+.view_separatormk .switch_4.color_1_16 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_16.html);}
+.view_separatormk .switch_4.color_1_17 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_17.html);}
+.view_separatormk .switch_4.color_1_18 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_18.html);}
+.view_separatormk .switch_4.color_1_19 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_19.html);}
+.view_separatormk .switch_4.color_1_20 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_20.html);}
+.view_separatormk .switch_4.color_1_21 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_21.html);}
+.view_separatormk .switch_4.color_1_22 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_22.html);}
+
+.view_separatormk .switch_4.color_2_1 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_1.html);}
+.view_separatormk .switch_4.color_2_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_2.html);}
+.view_separatormk .switch_4.color_2_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_4.html);}
+.view_separatormk .switch_4.color_2_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_5.html);}
+.view_separatormk .switch_4.color_2_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_6.html);}
+.view_separatormk .switch_4.color_2_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_7.html);}
+.view_separatormk .switch_4.color_2_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_8.html);}
+.view_separatormk .switch_4.color_2_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_9.html);}
+
+.view_separatormk .switch_4.color_3_1 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_1.html);}
+.view_separatormk .switch_4.color_3_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_2.html);}
+.view_separatormk .switch_4.color_3_3 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_3.html);}
+.view_separatormk .switch_4.color_3_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_4.html);}
+.view_separatormk .switch_4.color_3_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_5.html);}
+.view_separatormk .switch_4.color_3_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_6.html);}
+.view_separatormk .switch_4.color_3_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_7.html);}
+.view_separatormk .switch_4.color_3_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_8.html);}
+.view_separatormk .switch_4.color_3_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_9.html);}
+.view_separatormk .switch_4.color_3_10 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_10.html);}
+
+.view_separatormk .switch_4.color_4_1 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_1.html);}
+.view_separatormk .switch_4.color_4_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_2.html);}
+.view_separatormk .switch_4.color_4_3 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_3.html);}
+.view_separatormk .switch_4.color_4_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_4.html);}
+.view_separatormk .switch_4.color_4_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_5.html);}
+.view_separatormk .switch_4.color_4_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_6.html);}
+.view_separatormk .switch_4.color_4_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_7.html);}
+.view_separatormk .switch_4.color_4_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_8.html);}
+.view_separatormk .switch_4.color_4_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_9.html);}
+.view_separatormk .switch_4.color_4_10 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_10.html);}
+
+.view_separatormk .switch_4.color_5_1 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_1.html);}
+.view_separatormk .switch_4.color_5_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_2.html);}
+.view_separatormk .switch_4.color_5_3 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_3.html);}
+.view_separatormk .switch_4.color_5_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_4.html);}
+.view_separatormk .switch_4.color_5_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_5.html);}
+.view_separatormk .switch_4.color_5_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_6.html);}
+.view_separatormk .switch_4.color_5_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_7.html);}
+.view_separatormk .switch_4.color_5_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_8.html);}
+.view_separatormk .switch_4.color_5_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_9.html);}
+.view_separatormk .switch_4.color_5_10 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_10.html);}
+.view_separatormk .switch_4.color_5_11 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_11.html);}
+.view_separatormk .switch_4.color_5_12 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_12.html);}
+
+.view_separatormk .switch_4.color_6_1 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_1.html);}
+.view_separatormk .switch_4.color_6_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_2.html);}
+.view_separatormk .switch_4.color_6_3 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_3.html);}
+.view_separatormk .switch_4.color_6_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_4.html);}
+.view_separatormk .switch_4.color_6_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_5.html);}
+.view_separatormk .switch_4.color_6_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_6.html);}
+.view_separatormk .switch_4.color_6_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_7.html);}
+.view_separatormk .switch_4.color_6_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_8.html);}
+.view_separatormk .switch_4.color_6_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_9.html);}
+.view_separatormk .switch_4.color_6_10 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_10.html);}
+.view_separatormk .switch_4.color_6_11 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_11.html);}
+/*分隔符样式五*/
+.view_separatormk .switch_5.color_1_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_2.html);}
+.view_separatormk .switch_5.color_1_3 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_3.html);}
+.view_separatormk .switch_5.color_1_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_4.html);}
+.view_separatormk .switch_5.color_1_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_5.html);}
+.view_separatormk .switch_5.color_1_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_6.html);}
+.view_separatormk .switch_5.color_1_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_7.html);}
+.view_separatormk .switch_5.color_1_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_8.html);}
+.view_separatormk .switch_5.color_1_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_9.html);}
+.view_separatormk .switch_5.color_1_10 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_10.html);}
+.view_separatormk .switch_5.color_1_11 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_11.html);}
+.view_separatormk .switch_5.color_1_12 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_12.html);}
+.view_separatormk .switch_5.color_1_13 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_13.html);}
+.view_separatormk .switch_5.color_1_14 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_14.html);}
+.view_separatormk .switch_5.color_1_15 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_15.html);}
+.view_separatormk .switch_5.color_1_16 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_16.html);}
+.view_separatormk .switch_5.color_1_17 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_17.html);}
+.view_separatormk .switch_5.color_1_18 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_18.html);}
+.view_separatormk .switch_5.color_1_19 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_19.html);}
+.view_separatormk .switch_5.color_1_20 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_20.html);}
+.view_separatormk .switch_5.color_1_21 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_21.html);}
+.view_separatormk .switch_5.color_1_22 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_22.html);}
+
+.view_separatormk .switch_5.color_2_1 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_1.html);}
+.view_separatormk .switch_5.color_2_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_2.html);}
+.view_separatormk .switch_5.color_2_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_4.html);}
+.view_separatormk .switch_5.color_2_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_5.html);}
+.view_separatormk .switch_5.color_2_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_6.html);}
+.view_separatormk .switch_5.color_2_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_7.html);}
+.view_separatormk .switch_5.color_2_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_8.html);}
+.view_separatormk .switch_5.color_2_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_9.html);}
+
+.view_separatormk .switch_5.color_3_1 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_1.html);}
+.view_separatormk .switch_5.color_3_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_2.html);}
+.view_separatormk .switch_5.color_3_3 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_3.html);}
+.view_separatormk .switch_5.color_3_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_4.html);}
+.view_separatormk .switch_5.color_3_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_5.html);}
+.view_separatormk .switch_5.color_3_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_6.html);}
+.view_separatormk .switch_5.color_3_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_7.html);}
+.view_separatormk .switch_5.color_3_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_8.html);}
+.view_separatormk .switch_5.color_3_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_9.html);}
+.view_separatormk .switch_5.color_3_10 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_10.html);}
+
+.view_separatormk .switch_5.color_4_1 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_1.html);}
+.view_separatormk .switch_5.color_4_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_2.html);}
+.view_separatormk .switch_5.color_4_3 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_3.html);}
+.view_separatormk .switch_5.color_4_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_4.html);}
+.view_separatormk .switch_5.color_4_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_5.html);}
+.view_separatormk .switch_5.color_4_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_6.html);}
+.view_separatormk .switch_5.color_4_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_7.html);}
+.view_separatormk .switch_5.color_4_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_8.html);}
+.view_separatormk .switch_5.color_4_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_9.html);}
+.view_separatormk .switch_5.color_4_10 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_10.html);}
+
+.view_separatormk .switch_5.color_5_1 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_1.html);}
+.view_separatormk .switch_5.color_5_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_2.html);}
+.view_separatormk .switch_5.color_5_3 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_3.html);}
+.view_separatormk .switch_5.color_5_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_4.html);}
+.view_separatormk .switch_5.color_5_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_5.html);}
+.view_separatormk .switch_5.color_5_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_6.html);}
+.view_separatormk .switch_5.color_5_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_7.html);}
+.view_separatormk .switch_5.color_5_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_8.html);}
+.view_separatormk .switch_5.color_5_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_9.html);}
+.view_separatormk .switch_5.color_5_10 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_10.html);}
+.view_separatormk .switch_5.color_5_11 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_11.html);}
+.view_separatormk .switch_5.color_5_12 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_12.html);}
+
+.view_separatormk .switch_5.color_6_1 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_1.html);}
+.view_separatormk .switch_5.color_6_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_2.html);}
+.view_separatormk .switch_5.color_6_3 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_3.html);}
+.view_separatormk .switch_5.color_6_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_4.html);}
+.view_separatormk .switch_5.color_6_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_5.html);}
+.view_separatormk .switch_5.color_6_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_6.html);}
+.view_separatormk .switch_5.color_6_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_7.html);}
+.view_separatormk .switch_5.color_6_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_8.html);}
+.view_separatormk .switch_5.color_6_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_9.html);}
+.view_separatormk .switch_5.color_6_10 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_10.html);}
+.view_separatormk .switch_5.color_6_11 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_11.html);}
+
+@media only screen and (min-width: 100px) and (max-width: 700px){
+		.shortcut{display:none !important}
+		.bodybg{display: none !important;}
+		.header,.view_share{display:none;}
+		.view_body{width:100%;margin:0 auto;overflow:hidden;}
+
+		.goregist{cursor: pointer;display:block;width:100%;height:60px;background:rgba(0,0,0,.8) url(../../img.wannengye.com/mobile_top.html) no-repeat 96%;background-size: 40%;box-shadow:1px 1px 4px rgba(0,0,0,.3);z-index: 2;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+		.goregist a{padding:10px 0 10px 10px;line-height:40px;color:#fff;font-size:1em;display:block;}
+
+		.view_action{overflow:hidden;padding-left:0;display:block;position:relative;width:100%;padding-bottom:10px;}
+		.view_action li a{width: 56px;height: 56px;float:left;overflow:hidden;display:block;}
+		.view_action li span{padding: 5px;width:46px;height:46px;display:block;}
+		.view_action li span i{border-radius:50%;background:#3267a3;color:#fff;text-align: center;width:42px;height:42px;display:block;line-height:42px;border:2px solid rgba(255,255,255,.5);font-size:2em;margin:0 auto;}
+		.view_action li:empty{display:none}
+		.view_action li.last span,.view_action li.last a{width:auto;display: inline-block;color:#fff;position:relative;}
+		.view_action li.last span{padding: 15px 0 16px 0;height:30px;line-height:30px;}
+		.view_action li.last span i{background:none;position: absolute;left:10px;top:18px;font-size:24px;width:30px;height:30px;line-height:30px;border:none;}
+
+		.view_cont{padding:0 10px;}
+		.view_content{padding:15px 10px;}
+		.view_threepoto .view_content .li{width:100%}
+		.view_twopoto .view_content .li{width:-webkit-calc(50% - 5px);box-sizing: border-box;margin-left:5px;}
+		.view_twopoto .view_content .li.first{margin-left:0px;margin-right:5px;}
+		.view_twopoto .img{ min-height: 100px;}
+		.view_imgtext .switch_1 .img,.view_imgtext .switch_2 .img{width:30%;box-sizing: border-box;}
+		.view_imgtext .switch_1 .wenben,.view_imgtext .switch_2 .wenben{width:70%;box-sizing: border-box;}
+		.view_imgtext .switch_1 .wenben{padding-left:10px;}
+		.view_imgtext .switch_2 .wenben{padding-right:10px;}
+		.view_activity .img,.view_activity .wenben,.view_contact .img,.view_contact .wenben,.view_APP .img,.view_APP .wenben,.view_APP .p,.view_APP .btn a,.view_form .form_cont input,.view_form .form_cont textarea,.view_form .form_cont .sex,.view_form .form_cont .btn,.view_audio{width:100% !important;}
+		.view_contact .contact .form .botinput{width:auto;}
+		.view_threepoto .view_content .li{margin-left:auto!important;}
+		.view_imgtext .wenben,.view_activity .wenben,.view_contact .wenben,.view_APP .wenben{margin-left:0!important;}
+
+
+		.view_header .view_cont{background:none}
+		.view_video .img iframe{width:100%;height:auto;}
+
+		.view_contact .wenben{position:relative;}
+		.view_contact .p{display:none}
+		.view_APP .p{bottom:-34px;}
+		.view_APP .wenben{padding-top:30px;}
+		.view_APP .btn a{margin:10px auto;}
+		.view_APP .text{min-height:auto}
+
+		.view_form .form_cont input,.view_form .form_cont textarea,.view_form .form_cont .sex{padding:10px 0;margin:5px auto;text-indent:10px;}
+		.view_form .form_cont .btn{margin:5px 0 0 0;}
+
+		.view_customform  .title,.view_customform .text,.view_customform .switch_2 .title{width:100%;float: left;}
+
+		.view_header .view_cont.switch_2{padding:180px 0 0 0 !important}
+		.view_header .view_cont.switch_2 .view_content{background:#fff;padding-top:50px;}
+		.view_header .view_cont.switch_2 .text{color:#808080;}
+		.view_header .view_cont.switch_2 .img{position:absolute;top:-40px;left:50%;margin-left:-40px;border-width:2px;width:80px;height:80px;min-height:80px;background-size: cover !important;margin-top:0;}
+		.view_header .view_cont.switch_2 .view_action{background:#fff}
+		.view_header .view_cont.switch_2 .view_action ul{text-align:center;}
+		.view_header .view_cont.switch_2 .view_action li{display:inline-block;}
+
+		.view_header .title,.view_header .text{line-height:140%;}
+
+		.view_twopoto .view_content .li.first{margin-bottom:20px;}
+		.slick-dots{bottom:auto !important;top:-10px;left:0;}
+		.slick-dots li button:before{content:''}
+		.slick-dots li button{width: 20px;height: 4px;background: black;padding:0;margin:0 5px;opacity: 0.25;}
+		.slick-dots li{margin:0 5px !important;}
+		.slick-dots li.slick-active button{opacity:1;}
+		.view_action{margin-top:-1px;}
+  	.musicbg_icon{top:15%;right:-20px}
+  	/*分隔符组件*/
+  	.view_separatormk .view_content{padding: 15px 0 !important;}
+  	.view_separatormk .view_title{padding: 0 !important;}
+		.view_separatormk .view_cont{padding: 15px 0 !important;}
+
+		.view_separatormk .switch_1 .title,.view_separatormk .switch_2 .title,.view_separatormk .switch_3 .title,.view_separatormk .switch_4 .title,.view_separatormk .switch_5 .title{background-size:100%}
+		.view_separatormk .switch_1 .title .tag{background-image:url(../../img.wannengye.com/separator_1_min.html);}
+		.view_separatormk .switch_2 .title .tag{background-image:url(../../img.wannengye.com/separator_2_min.html);}
+		.view_separatormk .switch_3 .view_content{padding:15px 0;}
+		.view_separatormk .switch_3 .title .tag{background-image:url(../../img.wannengye.com/separator_3_min.html);}
+		.view_separatormk .switch_4 .title .tag{background-image:url(../../img.wannengye.com/separator_4_min.html);}
+		.view_separatormk .switch_5 .title .tag{background-image:url(../../img.wannengye.com/separator_5_min.html);}
+
+		.view_table .table{overflow:auto}
+		.view_botton .switch_2 .title,.view_botton .switch_2 .text{width:100%}
+
+		.m_wxfollow{display: block;padding:10px 35px 10px 10px;background:#fff;box-shadow: 0 -2px 5px #ddd;position: fixed;bottom:0;left:0;right:0;}
+		.m_wxfollow .close{position: absolute;top:0;right:0;width:30px;height: 30px;text-align: center;}
+		.m_wxfollow .close i{line-height: 30px;color:#666;}
+		.m_wxfollow .wxcont{padding:0 50px 0 0;position: relative;}
+		.m_wxfollow .wxcont img{width:40px;height: 40px;border-radius:50%;position: absolute;left:0;}
+		.m_wxfollow .wxcont a{width:45px;height: 30px;line-height:30px;position: absolute;right:0;top:5px;border:1px solid #ff7a5b;color:#ff7a5b;text-align: center;border-radius:4px;-webkit-border-radius:4px;}
+		.m_wxfollow .wxcont .title{display: block;line-height:20px;color:#333;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+		.m_wxfollow .wxcont .text{display: block;line-height:20px;color:#666;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+		/*分隔符更换主题色*/
+		/*分隔符样式一*/
+
+		.view_separatormk .switch_1.color_1_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_2_min.html);}
+		.view_separatormk .switch_1.color_1_3 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_3_min.html);}
+		.view_separatormk .switch_1.color_1_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_4_min.html);}
+		.view_separatormk .switch_1.color_1_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_5_min.html);}
+		.view_separatormk .switch_1.color_1_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_6_min.html);}
+		.view_separatormk .switch_1.color_1_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_7_min.html);}
+		.view_separatormk .switch_1.color_1_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_8_min.html);}
+		.view_separatormk .switch_1.color_1_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_9_min.html);}
+		.view_separatormk .switch_1.color_1_10 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_10_min.html);}
+		.view_separatormk .switch_1.color_1_11 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_11_min.html);}
+		.view_separatormk .switch_1.color_1_12 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_12_min.html);}
+		.view_separatormk .switch_1.color_1_13 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_13_min.html);}
+		.view_separatormk .switch_1.color_1_14 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_14_min.html);}
+		.view_separatormk .switch_1.color_1_15 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_15_min.html);}
+		.view_separatormk .switch_1.color_1_16 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_16_min.html);}
+		.view_separatormk .switch_1.color_1_17 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_17_min.html);}
+		.view_separatormk .switch_1.color_1_18 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_18_min.html);}
+		.view_separatormk .switch_1.color_1_19 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_19_min.html);}
+		.view_separatormk .switch_1.color_1_20 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_20_min.html);}
+		.view_separatormk .switch_1.color_1_21 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_21_min.html);}
+		.view_separatormk .switch_1.color_1_22 .title .tag{background-image: url(../../img.wannengye.com/separator_1_1_22_min.html);}
+
+		.view_separatormk .switch_1.color_2_1 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_1_min.html);}
+		.view_separatormk .switch_1.color_2_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_2_min.html);}
+		.view_separatormk .switch_1.color_2_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_4_min.html);}
+		.view_separatormk .switch_1.color_2_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_5_min.html);}
+		.view_separatormk .switch_1.color_2_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_6_min.html);}
+		.view_separatormk .switch_1.color_2_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_7_min.html);}
+		.view_separatormk .switch_1.color_2_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_8_min.html);}
+		.view_separatormk .switch_1.color_2_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_2_9_min.html);}
+
+		.view_separatormk .switch_1.color_3_1 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_1_min.html);}
+		.view_separatormk .switch_1.color_3_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_2_min.html);}
+		.view_separatormk .switch_1.color_3_3 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_3_min.html);}
+		.view_separatormk .switch_1.color_3_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_4_min.html);}
+		.view_separatormk .switch_1.color_3_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_5_min.html);}
+		.view_separatormk .switch_1.color_3_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_6_min.html);}
+		.view_separatormk .switch_1.color_3_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_7_min.html);}
+		.view_separatormk .switch_1.color_3_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_8_min.html);}
+		.view_separatormk .switch_1.color_3_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_9_min.html);}
+		.view_separatormk .switch_1.color_3_10 .title .tag{background-image: url(../../img.wannengye.com/separator_1_3_10_min.html);}
+
+		.view_separatormk .switch_1.color_4_1 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_1_min.html);}
+		.view_separatormk .switch_1.color_4_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_2_min.html);}
+		.view_separatormk .switch_1.color_4_3 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_3_min.html);}
+		.view_separatormk .switch_1.color_4_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_4_min.html);}
+		.view_separatormk .switch_1.color_4_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_5_min.html);}
+		.view_separatormk .switch_1.color_4_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_6_min.html);}
+		.view_separatormk .switch_1.color_4_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_7_min.html);}
+		.view_separatormk .switch_1.color_4_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_8_min.html);}
+		.view_separatormk .switch_1.color_4_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_9_min.html);}
+		.view_separatormk .switch_1.color_4_10 .title .tag{background-image: url(../../img.wannengye.com/separator_1_4_10_min.html);}
+
+		.view_separatormk .switch_1.color_5_1 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_1_min.html);}
+		.view_separatormk .switch_1.color_5_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_2_min.html);}
+		.view_separatormk .switch_1.color_5_3 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_3_min.html);}
+		.view_separatormk .switch_1.color_5_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_4_min.html);}
+		.view_separatormk .switch_1.color_5_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_5_min.html);}
+		.view_separatormk .switch_1.color_5_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_6_min.html);}
+		.view_separatormk .switch_1.color_5_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_7_min.html);}
+		.view_separatormk .switch_1.color_5_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_8_min.html);}
+		.view_separatormk .switch_1.color_5_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_9_min.html);}
+		.view_separatormk .switch_1.color_5_10 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_10_min.html);}
+		.view_separatormk .switch_1.color_5_11 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_11_min.html);}
+		.view_separatormk .switch_1.color_5_12 .title .tag{background-image: url(../../img.wannengye.com/separator_1_5_12_min.html);}
+
+		.view_separatormk .switch_1.color_6_1 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_1_min.html);}
+		.view_separatormk .switch_1.color_6_2 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_2_min.html);}
+		.view_separatormk .switch_1.color_6_3 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_3_min.html);}
+		.view_separatormk .switch_1.color_6_4 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_4_min.html);}
+		.view_separatormk .switch_1.color_6_5 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_5_min.html);}
+		.view_separatormk .switch_1.color_6_6 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_6_min.html);}
+		.view_separatormk .switch_1.color_6_7 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_7_min.html);}
+		.view_separatormk .switch_1.color_6_8 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_8_min.html);}
+		.view_separatormk .switch_1.color_6_9 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_9_min.html);}
+		.view_separatormk .switch_1.color_6_10 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_10_min.html);}
+		.view_separatormk .switch_1.color_6_11 .title .tag{background-image: url(../../img.wannengye.com/separator_1_6_11_min.html);}
+
+		/*分隔符样式二*/
+
+		.view_separatormk .switch_2.color_1_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_2_min.html);}
+		.view_separatormk .switch_2.color_1_3 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_3_min.html);}
+		.view_separatormk .switch_2.color_1_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_4_min.html);}
+		.view_separatormk .switch_2.color_1_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_5_min.html);}
+		.view_separatormk .switch_2.color_1_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_6_min.html);}
+		.view_separatormk .switch_2.color_1_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_7_min.html);}
+		.view_separatormk .switch_2.color_1_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_8_min.html);}
+		.view_separatormk .switch_2.color_1_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_9_min.html);}
+		.view_separatormk .switch_2.color_1_10 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_10_min.html);}
+		.view_separatormk .switch_2.color_1_11 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_11_min.html);}
+		.view_separatormk .switch_2.color_1_12 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_12_min.html);}
+		.view_separatormk .switch_2.color_1_13 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_13_min.html);}
+		.view_separatormk .switch_2.color_1_14 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_14_min.html);}
+		.view_separatormk .switch_2.color_1_15 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_15_min.html);}
+		.view_separatormk .switch_2.color_1_16 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_16_min.html);}
+		.view_separatormk .switch_2.color_1_17 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_17_min.html);}
+		.view_separatormk .switch_2.color_1_18 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_18_min.html);}
+		.view_separatormk .switch_2.color_1_19 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_19_min.html);}
+		.view_separatormk .switch_2.color_1_20 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_20_min.html);}
+		.view_separatormk .switch_2.color_1_21 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_21_min.html);}
+		.view_separatormk .switch_2.color_1_22 .title .tag{background-image: url(../../img.wannengye.com/separator_2_1_22_min.html);}
+
+		.view_separatormk .switch_2.color_2_1 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_1_min.html);}
+		.view_separatormk .switch_2.color_2_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_2_min.html);}
+		.view_separatormk .switch_2.color_2_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_4_min.html);}
+		.view_separatormk .switch_2.color_2_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_5_min.html);}
+		.view_separatormk .switch_2.color_2_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_6_min.html);}
+		.view_separatormk .switch_2.color_2_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_7_min.html);}
+		.view_separatormk .switch_2.color_2_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_8_min.html);}
+		.view_separatormk .switch_2.color_2_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_2_9_min.html);}
+
+		.view_separatormk .switch_2.color_3_1 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_1_min.html);}
+		.view_separatormk .switch_2.color_3_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_2_min.html);}
+		.view_separatormk .switch_2.color_3_3 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_3_min.html);}
+		.view_separatormk .switch_2.color_3_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_4_min.html);}
+		.view_separatormk .switch_2.color_3_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_5_min.html);}
+		.view_separatormk .switch_2.color_3_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_6_min.html);}
+		.view_separatormk .switch_2.color_3_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_7_min.html);}
+		.view_separatormk .switch_2.color_3_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_8_min.html);}
+		.view_separatormk .switch_2.color_3_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_9_min.html);}
+		.view_separatormk .switch_2.color_3_10 .title .tag{background-image: url(../../img.wannengye.com/separator_2_3_10_min.html);}
+
+		.view_separatormk .switch_2.color_4_1 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_1_min.html);}
+		.view_separatormk .switch_2.color_4_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_2_min.html);}
+		.view_separatormk .switch_2.color_4_3 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_3_min.html);}
+		.view_separatormk .switch_2.color_4_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_4_min.html);}
+		.view_separatormk .switch_2.color_4_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_5_min.html);}
+		.view_separatormk .switch_2.color_4_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_6_min.html);}
+		.view_separatormk .switch_2.color_4_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_7_min.html);}
+		.view_separatormk .switch_2.color_4_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_8_min.html);}
+		.view_separatormk .switch_2.color_4_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_9_min.html);}
+		.view_separatormk .switch_2.color_4_10 .title .tag{background-image: url(../../img.wannengye.com/separator_2_4_10_min.html);}
+
+		.view_separatormk .switch_2.color_5_1 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_1_min.html);}
+		.view_separatormk .switch_2.color_5_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_2_min.html);}
+		.view_separatormk .switch_2.color_5_3 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_3_min.html);}
+		.view_separatormk .switch_2.color_5_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_4_min.html);}
+		.view_separatormk .switch_2.color_5_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_5_min.html);}
+		.view_separatormk .switch_2.color_5_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_6_min.html);}
+		.view_separatormk .switch_2.color_5_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_7_min.html);}
+		.view_separatormk .switch_2.color_5_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_8_min.html);}
+		.view_separatormk .switch_2.color_5_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_9_min.html);}
+		.view_separatormk .switch_2.color_5_10 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_10_min.html);}
+		.view_separatormk .switch_2.color_5_11 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_11_min.html);}
+		.view_separatormk .switch_2.color_5_12 .title .tag{background-image: url(../../img.wannengye.com/separator_2_5_12_min.html);}
+
+		.view_separatormk .switch_2.color_6_1 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_1_min.html);}
+		.view_separatormk .switch_2.color_6_2 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_2_min.html);}
+		.view_separatormk .switch_2.color_6_3 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_3_min.html);}
+		.view_separatormk .switch_2.color_6_4 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_4_min.html);}
+		.view_separatormk .switch_2.color_6_5 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_5_min.html);}
+		.view_separatormk .switch_2.color_6_6 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_6_min.html);}
+		.view_separatormk .switch_2.color_6_7 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_7_min.html);}
+		.view_separatormk .switch_2.color_6_8 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_8_min.html);}
+		.view_separatormk .switch_2.color_6_9 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_9_min.html);}
+		.view_separatormk .switch_2.color_6_10 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_10_min.html);}
+		.view_separatormk .switch_2.color_6_11 .title .tag{background-image: url(../../img.wannengye.com/separator_2_6_11_min.html);}
+
+		/*分隔符样式三*/
+
+		.view_separatormk .switch_3.color_1_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_2_min.html);}
+		.view_separatormk .switch_3.color_1_3 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_3_min.html);}
+		.view_separatormk .switch_3.color_1_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_4_min.html);}
+		.view_separatormk .switch_3.color_1_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_5_min.html);}
+		.view_separatormk .switch_3.color_1_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_6_min.html);}
+		.view_separatormk .switch_3.color_1_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_7_min.html);}
+		.view_separatormk .switch_3.color_1_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_8_min.html);}
+		.view_separatormk .switch_3.color_1_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_9_min.html);}
+		.view_separatormk .switch_3.color_1_10 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_10_min.html);}
+		.view_separatormk .switch_3.color_1_11 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_11_min.html);}
+		.view_separatormk .switch_3.color_1_12 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_12_min.html);}
+		.view_separatormk .switch_3.color_1_13 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_13_min.html);}
+		.view_separatormk .switch_3.color_1_14 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_14_min.html);}
+		.view_separatormk .switch_3.color_1_15 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_15_min.html);}
+		.view_separatormk .switch_3.color_1_16 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_16_min.html);}
+		.view_separatormk .switch_3.color_1_17 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_17_min.html);}
+		.view_separatormk .switch_3.color_1_18 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_18_min.html);}
+		.view_separatormk .switch_3.color_1_19 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_19_min.html);}
+		.view_separatormk .switch_3.color_1_20 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_20_min.html);}
+		.view_separatormk .switch_3.color_1_21 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_21_min.html);}
+		.view_separatormk .switch_3.color_1_22 .title .tag{background-image: url(../../img.wannengye.com/separator_3_1_22_min.html);}
+
+		.view_separatormk .switch_3.color_2_1 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_1_min.html);}
+		.view_separatormk .switch_3.color_2_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_2_min.html);}
+		.view_separatormk .switch_3.color_2_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_4_min.html);}
+		.view_separatormk .switch_3.color_2_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_5_min.html);}
+		.view_separatormk .switch_3.color_2_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_6_min.html);}
+		.view_separatormk .switch_3.color_2_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_7_min.html);}
+		.view_separatormk .switch_3.color_2_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_8_min.html);}
+		.view_separatormk .switch_3.color_2_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_2_9_min.html);}
+
+		.view_separatormk .switch_3.color_3_1 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_1_min.html);}
+		.view_separatormk .switch_3.color_3_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_2_min.html);}
+		.view_separatormk .switch_3.color_3_3 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_3_min.html);}
+		.view_separatormk .switch_3.color_3_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_4_min.html);}
+		.view_separatormk .switch_3.color_3_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_5_min.html);}
+		.view_separatormk .switch_3.color_3_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_6_min.html);}
+		.view_separatormk .switch_3.color_3_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_7_min.html);}
+		.view_separatormk .switch_3.color_3_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_8_min.html);}
+		.view_separatormk .switch_3.color_3_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_9_min.html);}
+		.view_separatormk .switch_3.color_3_10 .title .tag{background-image: url(../../img.wannengye.com/separator_3_3_10_min.html);}
+
+		.view_separatormk .switch_3.color_4_1 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_1_min.html);}
+		.view_separatormk .switch_3.color_4_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_2_min.html);}
+		.view_separatormk .switch_3.color_4_3 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_3_min.html);}
+		.view_separatormk .switch_3.color_4_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_4_min.html);}
+		.view_separatormk .switch_3.color_4_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_5_min.html);}
+		.view_separatormk .switch_3.color_4_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_6_min.html);}
+		.view_separatormk .switch_3.color_4_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_7_min.html);}
+		.view_separatormk .switch_3.color_4_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_8_min.html);}
+		.view_separatormk .switch_3.color_4_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_9_min.html);}
+		.view_separatormk .switch_3.color_4_10 .title .tag{background-image: url(../../img.wannengye.com/separator_3_4_10_min.html);}
+
+		.view_separatormk .switch_3.color_5_1 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_1_min.html);}
+		.view_separatormk .switch_3.color_5_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_2_min.html);}
+		.view_separatormk .switch_3.color_5_3 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_3_min.html);}
+		.view_separatormk .switch_3.color_5_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_4_min.html);}
+		.view_separatormk .switch_3.color_5_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_5_min.html);}
+		.view_separatormk .switch_3.color_5_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_6_min.html);}
+		.view_separatormk .switch_3.color_5_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_7_min.html);}
+		.view_separatormk .switch_3.color_5_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_8_min.html);}
+		.view_separatormk .switch_3.color_5_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_9_min.html);}
+		.view_separatormk .switch_3.color_5_10 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_10_min.html);}
+		.view_separatormk .switch_3.color_5_11 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_11_min.html);}
+		.view_separatormk .switch_3.color_5_12 .title .tag{background-image: url(../../img.wannengye.com/separator_3_5_12_min.html);}
+
+		.view_separatormk .switch_3.color_6_1 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_1_min.html);}
+		.view_separatormk .switch_3.color_6_2 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_2_min.html);}
+		.view_separatormk .switch_3.color_6_3 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_3_min.html);}
+		.view_separatormk .switch_3.color_6_4 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_4_min.html);}
+		.view_separatormk .switch_3.color_6_5 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_5_min.html);}
+		.view_separatormk .switch_3.color_6_6 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_6_min.html);}
+		.view_separatormk .switch_3.color_6_7 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_7_min.html);}
+		.view_separatormk .switch_3.color_6_8 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_8_min.html);}
+		.view_separatormk .switch_3.color_6_9 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_9_min.html);}
+		.view_separatormk .switch_3.color_6_10 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_10_min.html);}
+		.view_separatormk .switch_3.color_6_11 .title .tag{background-image: url(../../img.wannengye.com/separator_3_6_11_min.html);}
+
+
+
+		/*分隔符样式四*/
+		.view_separatormk .switch_4.color_1_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_2_min.html);}
+		.view_separatormk .switch_4.color_1_3 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_3_min.html);}
+		.view_separatormk .switch_4.color_1_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_4_min.html);}
+		.view_separatormk .switch_4.color_1_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_5_min.html);}
+		.view_separatormk .switch_4.color_1_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_6_min.html);}
+		.view_separatormk .switch_4.color_1_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_7_min.html);}
+		.view_separatormk .switch_4.color_1_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_8_min.html);}
+		.view_separatormk .switch_4.color_1_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_9_min.html);}
+		.view_separatormk .switch_4.color_1_10 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_10_min.html);}
+		.view_separatormk .switch_4.color_1_11 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_11_min.html);}
+		.view_separatormk .switch_4.color_1_12 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_12_min.html);}
+		.view_separatormk .switch_4.color_1_13 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_13_min.html);}
+		.view_separatormk .switch_4.color_1_14 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_14_min.html);}
+		.view_separatormk .switch_4.color_1_15 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_15_min.html);}
+		.view_separatormk .switch_4.color_1_16 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_16_min.html);}
+		.view_separatormk .switch_4.color_1_17 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_17_min.html);}
+		.view_separatormk .switch_4.color_1_18 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_18_min.html);}
+		.view_separatormk .switch_4.color_1_19 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_19_min.html);}
+		.view_separatormk .switch_4.color_1_20 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_20_min.html);}
+		.view_separatormk .switch_4.color_1_21 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_21_min.html);}
+		.view_separatormk .switch_4.color_1_22 .title .tag{background-image: url(../../img.wannengye.com/separator_4_1_22_min.html);}
+
+		.view_separatormk .switch_4.color_2_1 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_1_min.html);}
+		.view_separatormk .switch_4.color_2_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_2_min.html);}
+		.view_separatormk .switch_4.color_2_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_4_min.html);}
+		.view_separatormk .switch_4.color_2_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_5_min.html);}
+		.view_separatormk .switch_4.color_2_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_6_min.html);}
+		.view_separatormk .switch_4.color_2_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_7_min.html);}
+		.view_separatormk .switch_4.color_2_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_8_min.html);}
+		.view_separatormk .switch_4.color_2_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_2_9_min.html);}
+
+		.view_separatormk .switch_4.color_3_1 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_1_min.html);}
+		.view_separatormk .switch_4.color_3_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_2_min.html);}
+		.view_separatormk .switch_4.color_3_3 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_3_min.html);}
+		.view_separatormk .switch_4.color_3_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_4_min.html);}
+		.view_separatormk .switch_4.color_3_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_5_min.html);}
+		.view_separatormk .switch_4.color_3_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_6_min.html);}
+		.view_separatormk .switch_4.color_3_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_7_min.html);}
+		.view_separatormk .switch_4.color_3_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_8_min.html);}
+		.view_separatormk .switch_4.color_3_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_9_min.html);}
+		.view_separatormk .switch_4.color_3_10 .title .tag{background-image: url(../../img.wannengye.com/separator_4_3_10_min.html);}
+
+		.view_separatormk .switch_4.color_4_1 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_1_min.html);}
+		.view_separatormk .switch_4.color_4_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_2_min.html);}
+		.view_separatormk .switch_4.color_4_3 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_3_min.html);}
+		.view_separatormk .switch_4.color_4_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_4_min.html);}
+		.view_separatormk .switch_4.color_4_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_5_min.html);}
+		.view_separatormk .switch_4.color_4_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_6_min.html);}
+		.view_separatormk .switch_4.color_4_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_7_min.html);}
+		.view_separatormk .switch_4.color_4_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_8_min.html);}
+		.view_separatormk .switch_4.color_4_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_9_min.html);}
+		.view_separatormk .switch_4.color_4_10 .title .tag{background-image: url(../../img.wannengye.com/separator_4_4_10_min.html);}
+
+		.view_separatormk .switch_4.color_5_1 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_1_min.html);}
+		.view_separatormk .switch_4.color_5_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_2_min.html);}
+		.view_separatormk .switch_4.color_5_3 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_3_min.html);}
+		.view_separatormk .switch_4.color_5_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_4_min.html);}
+		.view_separatormk .switch_4.color_5_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_5_min.html);}
+		.view_separatormk .switch_4.color_5_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_6_min.html);}
+		.view_separatormk .switch_4.color_5_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_7_min.html);}
+		.view_separatormk .switch_4.color_5_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_8_min.html);}
+		.view_separatormk .switch_4.color_5_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_9_min.html);}
+		.view_separatormk .switch_4.color_5_10 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_10_min.html);}
+		.view_separatormk .switch_4.color_5_11 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_11_min.html);}
+		.view_separatormk .switch_4.color_5_12 .title .tag{background-image: url(../../img.wannengye.com/separator_4_5_12_min.html);}
+
+		.view_separatormk .switch_4.color_6_1 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_1_min.html);}
+		.view_separatormk .switch_4.color_6_2 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_2_min.html);}
+		.view_separatormk .switch_4.color_6_3 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_3_min.html);}
+		.view_separatormk .switch_4.color_6_4 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_4_min.html);}
+		.view_separatormk .switch_4.color_6_5 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_5_min.html);}
+		.view_separatormk .switch_4.color_6_6 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_6_min.html);}
+		.view_separatormk .switch_4.color_6_7 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_7_min.html);}
+		.view_separatormk .switch_4.color_6_8 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_8_min.html);}
+		.view_separatormk .switch_4.color_6_9 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_9_min.html);}
+		.view_separatormk .switch_4.color_6_10 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_10_min.html);}
+		.view_separatormk .switch_4.color_6_11 .title .tag{background-image: url(../../img.wannengye.com/separator_4_6_11_min.html);}
+
+		/*分隔符样式五*/
+		.view_separatormk .switch_5.color_1_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_2_min.html);}
+		.view_separatormk .switch_5.color_1_3 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_3_min.html);}
+		.view_separatormk .switch_5.color_1_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_4_min.html);}
+		.view_separatormk .switch_5.color_1_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_5_min.html);}
+		.view_separatormk .switch_5.color_1_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_6_min.html);}
+		.view_separatormk .switch_5.color_1_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_7_min.html);}
+		.view_separatormk .switch_5.color_1_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_8_min.html);}
+		.view_separatormk .switch_5.color_1_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_9_min.html);}
+		.view_separatormk .switch_5.color_1_10 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_10_min.html);}
+		.view_separatormk .switch_5.color_1_11 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_11_min.html);}
+		.view_separatormk .switch_5.color_1_12 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_12_min.html);}
+		.view_separatormk .switch_5.color_1_13 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_13_min.html);}
+		.view_separatormk .switch_5.color_1_14 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_14_min.html);}
+		.view_separatormk .switch_5.color_1_15 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_15_min.html);}
+		.view_separatormk .switch_5.color_1_16 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_16_min.html);}
+		.view_separatormk .switch_5.color_1_17 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_17_min.html);}
+		.view_separatormk .switch_5.color_1_18 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_18_min.html);}
+		.view_separatormk .switch_5.color_1_19 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_19_min.html);}
+		.view_separatormk .switch_5.color_1_20 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_20_min.html);}
+		.view_separatormk .switch_5.color_1_21 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_21_min.html);}
+		.view_separatormk .switch_5.color_1_22 .title .tag{background-image: url(../../img.wannengye.com/separator_5_1_22_min.html);}
+
+		.view_separatormk .switch_5.color_2_1 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_1_min.html);}
+		.view_separatormk .switch_5.color_2_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_2_min.html);}
+		.view_separatormk .switch_5.color_2_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_4_min.html);}
+		.view_separatormk .switch_5.color_2_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_5_min.html);}
+		.view_separatormk .switch_5.color_2_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_6_min.html);}
+		.view_separatormk .switch_5.color_2_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_7_min.html);}
+		.view_separatormk .switch_5.color_2_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_8_min.html);}
+		.view_separatormk .switch_5.color_2_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_2_9_min.html);}
+
+		.view_separatormk .switch_5.color_3_1 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_1_min.html);}
+		.view_separatormk .switch_5.color_3_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_2_min.html);}
+		.view_separatormk .switch_5.color_3_3 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_3_min.html);}
+		.view_separatormk .switch_5.color_3_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_4_min.html);}
+		.view_separatormk .switch_5.color_3_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_5_min.html);}
+		.view_separatormk .switch_5.color_3_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_6_min.html);}
+		.view_separatormk .switch_5.color_3_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_7_min.html);}
+		.view_separatormk .switch_5.color_3_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_8_min.html);}
+		.view_separatormk .switch_5.color_3_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_9_min.html);}
+		.view_separatormk .switch_5.color_3_10 .title .tag{background-image: url(../../img.wannengye.com/separator_5_3_10_min.html);}
+
+		.view_separatormk .switch_5.color_4_1 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_1_min.html);}
+		.view_separatormk .switch_5.color_4_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_2_min.html);}
+		.view_separatormk .switch_5.color_4_3 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_3_min.html);}
+		.view_separatormk .switch_5.color_4_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_4_min.html);}
+		.view_separatormk .switch_5.color_4_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_5_min.html);}
+		.view_separatormk .switch_5.color_4_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_6_min.html);}
+		.view_separatormk .switch_5.color_4_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_7_min.html);}
+		.view_separatormk .switch_5.color_4_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_8_min.html);}
+		.view_separatormk .switch_5.color_4_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_9_min.html);}
+		.view_separatormk .switch_5.color_4_10 .title .tag{background-image: url(../../img.wannengye.com/separator_5_4_10_min.html);}
+
+		.view_separatormk .switch_5.color_5_1 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_1_min.html);}
+		.view_separatormk .switch_5.color_5_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_2_min.html);}
+		.view_separatormk .switch_5.color_5_3 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_3_min.html);}
+		.view_separatormk .switch_5.color_5_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_4_min.html);}
+		.view_separatormk .switch_5.color_5_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_5_min.html);}
+		.view_separatormk .switch_5.color_5_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_6_min.html);}
+		.view_separatormk .switch_5.color_5_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_7_min.html);}
+		.view_separatormk .switch_5.color_5_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_8_min.html);}
+		.view_separatormk .switch_5.color_5_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_9_min.html);}
+		.view_separatormk .switch_5.color_5_10 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_10_min.html);}
+		.view_separatormk .switch_5.color_5_11 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_11_min.html);}
+		.view_separatormk .switch_5.color_5_12 .title .tag{background-image: url(../../img.wannengye.com/separator_5_5_12_min.html);}
+
+		.view_separatormk .switch_5.color_6_1 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_1_min.html);}
+		.view_separatormk .switch_5.color_6_2 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_2_min.html);}
+		.view_separatormk .switch_5.color_6_3 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_3_min.html);}
+		.view_separatormk .switch_5.color_6_4 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_4_min.html);}
+		.view_separatormk .switch_5.color_6_5 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_5_min.html);}
+		.view_separatormk .switch_5.color_6_6 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_6_min.html);}
+		.view_separatormk .switch_5.color_6_7 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_7_min.html);}
+		.view_separatormk .switch_5.color_6_8 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_8_min.html);}
+		.view_separatormk .switch_5.color_6_9 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_9_min.html);}
+		.view_separatormk .switch_5.color_6_10 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_10_min.html);}
+		.view_separatormk .switch_5.color_6_11 .title .tag{background-image: url(../../img.wannengye.com/separator_5_6_11_min.html);}
+}

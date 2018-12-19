@@ -1,0 +1,38 @@
+/*主题样式*/
+.bottomstyle{display:none}
+.view_spacing{height: 0 !important;}
+
+.view_cont{background:#fff;padding:0;}
+.view_content{background:none;padding:10px 30px;}
+.view_header{border:5px solid rgba(0,0,0,.1);margin:0 0 0 -5px;position:relative;z-index:1;background-image:url(../../img.wannengye.com/grungestars.html);}
+.view_header .title,.view_header .text{color:#fff;}
+.view_header .view_cont{padding:0 10px;margin:5px;}
+.view_header .view_content{padding:40px 10px;}
+
+
+.img{border:5px solid #fff;box-sizing:border-box;-webkit-box-sizing: border-box; -moz-box-sizing: border-box;position:relative;box-shadow: 0 0 3px rgba(0,0,0,.3);}
+.img .img{border:none;}
+.view_botton .title a,.view_APP .btn a,.view_form .form_cont .sex .radio.down div,.view_form .form_cont .btn,.view_customform .title a,.view_video .link a.btn,.view_form .form_tool a:hover, .view_form .form_tool a.down,.view_customform .customform_bar span.down,.view_table .table table th,.view_action li span i{background-color:rgb(89, 45, 5);}
+.view_form .form_cont .sex .radio.down{border-color:rgb(89, 45, 5);}
+
+.head_switch_4 .view_header{border:none;margin:0;}
+.head_switch_4 .view_header .view_cont{margin:0;}
+.view_audio .view_content{padding:20px;}
+
+.view_header.null{padding:0;border:none;margin:0;}
+.view_header.null .view_cont{margin:0;}
+
+/*预览*/
+.view_body.mb .view_header{border:none;margin:0 auto;background-size:100% auto}
+.view_body.mb .view_header .view_cont{margin:0;background: -webkit-gradient(linear,0 30%,0 100%,from(rgba(0,0,0,.1)),to(rgba(0,0,0,.2)));}
+.view_body.mb .view_onepoto .img a img{min-height:auto;}
+.view_body.mb .slick-dots li button{border-radius:4px;-webkit-border-radius:4px;}
+.view_body.mb .view_content{background:none;padding:15px;}
+.view_body.mb .view_twopoto .view_content .li{width:130px;}
+@media only screen and (min-width: 100px) and (max-width: 700px){
+	.view_header{border:none;margin:0 auto;background-size:100% auto}
+	.view_header .view_cont{margin:0;background: -webkit-gradient(linear,0 30%,0 100%,from(rgba(0,0,0,.1)),to(rgba(0,0,0,.2)));}
+	.view_onepoto .img a img{min-height:auto;}
+	.slick-dots li button{border-radius:4px;-webkit-border-radius:4px;}
+	.view_content{background:none;padding:15px;}
+}
